@@ -3,3 +3,6 @@ A hidden folder by the name of .git is created. It contains all the information 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 We can slectively add files that we want to commit into the staging area. It acts a placeholder for the files that we want to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding the files corresponding to one logical change into staging area and commiting it.
