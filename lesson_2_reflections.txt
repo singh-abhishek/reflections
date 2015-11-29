@@ -16,3 +16,7 @@ They show all the commits and we can analyze which commits are reachable.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is the combination of changes done in both the branches. 
 We represent it in such a way because when we create a branch it shows deviation from the master code and when we merge it the changes are combined.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Save the effort required to do merging manually.
+Cons: Merging might result in a code that cannot run or compile.
