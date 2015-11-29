@@ -2,7 +2,17 @@ What happens when you initialize a repository? Why do you need to do it?
 A hidden folder by the name of .git is created. It contains all the information required for tracking the commits done on that repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-We can slectively add files that we want to commit into the staging area. It acts a placeholder for the files that we want to commit.
+We can selectively add files that we want to commit into the staging area. It acts a placeholder for the files that we want to commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
-By adding the files corresponding to one logical change into staging area and commiting it.
+By adding the files corresponding to one logical change into staging area and committing it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we want to work on a new feature also have a working copy of the code.
+
+How do the diagrams help you visualize the branch structure?
+They show all the commits and we can analyze which commits are reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is the combination of changes done in both the branches. 
+We represent it in such a way because when we create a branch it shows deviation from the master code and when we merge it the changes are combined.
